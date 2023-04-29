@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">lab_2_var_9</string>
+    <string name="result_format">Тип товару: %1$s, Фірма: %2$s</string>
+    <string name="error_message">Будь ласка, виберіть тип товару та фірму.</string>
+
+</resources>

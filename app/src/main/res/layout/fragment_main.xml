@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainFragment">
+
+    <RadioGroup
+        android:id="@+id/productTypeRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notebook" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SmartPhone" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/brandRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/productTypeRadioGroup"
+        app:layout_constraintStart_toEndOf="@+id/productTypeRadioGroup"
+        app:layout_constraintTop_toTopOf="@+id/productTypeRadioGroup">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apple" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Samsung" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="ОК"
+        app:layout_constraintEnd_toEndOf="@+id/productTypeRadioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/productTypeRadioGroup" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="@+id/okButton"
+        app:layout_constraintStart_toStartOf="@+id/brandRadioGroup"
+        app:layout_constraintTop_toTopOf="@+id/okButton" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/cancelButton"
+        app:layout_constraintStart_toStartOf="@+id/okButton"
+        app:layout_constraintTop_toBottomOf="@+id/okButton"
+        tools:text="RESULT" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
