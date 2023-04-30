@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.MainFragment">
+    tools:context="com.learning.lab_2_var_9.ui.main.MainFragment">
 
     <RadioGroup
         android:id="@+id/productTypeRadioGroup"
@@ -57,7 +57,7 @@
         android:id="@+id/okButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="40dp"
         android:text="ОК"
         app:layout_constraintEnd_toEndOf="@+id/productTypeRadioGroup"
         app:layout_constraintTop_toBottomOf="@+id/productTypeRadioGroup" />
@@ -75,7 +75,7 @@
         android:id="@+id/resultTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="28dp"
         android:text=""
         app:layout_constraintEnd_toEndOf="@+id/cancelButton"
         app:layout_constraintStart_toStartOf="@+id/okButton"

@@ -1,4 +1,4 @@
-package com.learning.myapplication.ui.main
+package com.learning.lab_2_var_9.ui.main
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle

@@ -1,8 +1,9 @@
-package com.learning.myapplication
+package com.learning.lab_2_var_9
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.learning.myapplication.ui.main.MainFragment
+import com.learning.lab_2_var_9.ui.main.MainFragment
+import com.learning.myapplication.R
 
 class MainActivity : AppCompatActivity() {
 
