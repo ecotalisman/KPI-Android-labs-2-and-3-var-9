@@ -20,6 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.learning.lab_2_var_9.DataActivity"></activity>
     </application>
 
 </manifest>
