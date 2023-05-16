@@ -1,6 +1,6 @@
 # KPI-Android-labs 2 and 3 variant-9
 
-# LABORATORY WORK # 2
+## LABORATORY WORK # 2
 ### EXPLORATION OF THE FRAGMENT COMPONENT
 Objective: To explore the creation and interaction with the Fragment component of the Activity (Android platform) and gain practical skills in using fragments for the user interface.
 
@@ -9,8 +9,8 @@ Write an Android platform application that has an interface built from one or se
 
 Note: The task corresponds to the option of laboratory work #1.
 
-# LABORATORY WORK № 3
-## EXPLORATION OF DATA STORAGE METHODS
+## LABORATORY WORK № 3
+### EXPLORATION OF DATA STORAGE METHODS
 Objective: To explore the methods of data storage (database, file system, etc.) and gain practical skills in using data stores.
 
 ### TASK
